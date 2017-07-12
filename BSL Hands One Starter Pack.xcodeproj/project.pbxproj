@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		293B92211F14C93B004BC1FE /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 293B92201F14C93B004BC1FE /* GoogleMobileAds.framework */; };
+		293B92291F151C6D004BC1FE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 293B92281F151C6D004BC1FE /* GoogleService-Info.plist */; };
+		2997D64F1F0501E3006CC83C /* AppStoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2997D64E1F0501E3006CC83C /* AppStoreViewController.swift */; };
+		29EB014F1EF3E6E800E8F6FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EB014E1EF3E6E800E8F6FD /* AppDelegate.swift */; };
+		29EB01511EF3E6E800E8F6FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EB01501EF3E6E800E8F6FD /* ViewController.swift */; };
+		29EB01541EF3E6E800E8F6FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29EB01521EF3E6E800E8F6FD /* Main.storyboard */; };
+		29EB01561EF3E6E800E8F6FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29EB01551EF3E6E800E8F6FD /* Assets.xcassets */; };
+		29EB01591EF3E6E800E8F6FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29EB01571EF3E6E800E8F6FD /* LaunchScreen.storyboard */; };
+		29EB01631EF98BF900E8F6FD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29EB01611EF98BF900E8F6FD /* AVFoundation.framework */; };
+		29EB01641EF98BF900E8F6FD /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29EB01621EF98BF900E8F6FD /* AVKit.framework */; };
+		29EB01A91EFD15ED00E8F6FD /* AnimalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EB01A81EFD15ED00E8F6FD /* AnimalViewController.swift */; };
+		29EB01AB1EFD40A800E8F6FD /* SignSongsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EB01AA1EFD40A800E8F6FD /* SignSongsViewController.swift */; };
+		360102DA1F02AEF000252340 /* AppGlobal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360102D91F02AEF000252340 /* AppGlobal.swift */; };
+		849861A7FDD5CCE344977592 /* Pods_BSL_Hands_One.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AFE051C46FA80F59E703BD4 /* Pods_BSL_Hands_One.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1AFE051C46FA80F59E703BD4 /* Pods_BSL_Hands_One.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BSL_Hands_One.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		293B92201F14C93B004BC1FE /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		293B92281F151C6D004BC1FE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2997D64E1F0501E3006CC83C /* AppStoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStoreViewController.swift; sourceTree = "<group>"; };
+		29EB014B1EF3E6E800E8F6FD /* BSL Hands One.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BSL Hands One.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29EB014E1EF3E6E800E8F6FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		29EB01501EF3E6E800E8F6FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		29EB01531EF3E6E800E8F6FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29EB01551EF3E6E800E8F6FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29EB01581EF3E6E800E8F6FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29EB015A1EF3E6E800E8F6FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29EB01611EF98BF900E8F6FD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		29EB01621EF98BF900E8F6FD /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		29EB01A81EFD15ED00E8F6FD /* AnimalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalViewController.swift; sourceTree = "<group>"; };
+		29EB01AA1EFD40A800E8F6FD /* SignSongsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignSongsViewController.swift; sourceTree = "<group>"; };
+		360102D91F02AEF000252340 /* AppGlobal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppGlobal.swift; sourceTree = "<group>"; };
+		A2F81924438B6A5760A96F80 /* Pods-BSL Hands One.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSL Hands One.release.xcconfig"; path = "Pods/Target Support Files/Pods-BSL Hands One/Pods-BSL Hands One.release.xcconfig"; sourceTree = "<group>"; };
+		C79565E9B49F4BB9BA5B5DAA /* Pods-BSL Hands One.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSL Hands One.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BSL Hands One/Pods-BSL Hands One.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29EB01481EF3E6E800E8F6FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				293B92211F14C93B004BC1FE /* GoogleMobileAds.framework in Frameworks */,
+				29EB01631EF98BF900E8F6FD /* AVFoundation.framework in Frameworks */,
+				29EB01641EF98BF900E8F6FD /* AVKit.framework in Frameworks */,
+				849861A7FDD5CCE344977592 /* Pods_BSL_Hands_One.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29EB01421EF3E6E800E8F6FD = {
+			isa = PBXGroup;
+			children = (
+				29EB014D1EF3E6E800E8F6FD /* BSL Hands One Free */,
+				29EB014C1EF3E6E800E8F6FD /* Products */,
+				29EB01601EF98BF900E8F6FD /* Frameworks */,
+				4DA495931CE919D19B4868AF /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		29EB014C1EF3E6E800E8F6FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29EB014B1EF3E6E800E8F6FD /* BSL Hands One.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29EB014D1EF3E6E800E8F6FD /* BSL Hands One Free */ = {
+			isa = PBXGroup;
+			children = (
+				293B92281F151C6D004BC1FE /* GoogleService-Info.plist */,
+				360102D81F02AED600252340 /* AppGlobal */,
+				360102D71F023B5000252340 /* AppDelegate */,
+				360102D51F023B2600252340 /* Storyboard */,
+				360102D41F023B1200252340 /* Controllers */,
+				360102D61F023B3600252340 /* Supporting */,
+			);
+			name = "BSL Hands One Free";
+			path = "BSL Hands One";
+			sourceTree = "<group>";
+		};
+		29EB01601EF98BF900E8F6FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				293B92201F14C93B004BC1FE /* GoogleMobileAds.framework */,
+				29EB01611EF98BF900E8F6FD /* AVFoundation.framework */,
+				29EB01621EF98BF900E8F6FD /* AVKit.framework */,
+				1AFE051C46FA80F59E703BD4 /* Pods_BSL_Hands_One.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		360102D41F023B1200252340 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				29EB01501EF3E6E800E8F6FD /* ViewController.swift */,
+				29EB01A81EFD15ED00E8F6FD /* AnimalViewController.swift */,
+				29EB01AA1EFD40A800E8F6FD /* SignSongsViewController.swift */,
+				2997D64E1F0501E3006CC83C /* AppStoreViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		360102D51F023B2600252340 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				29EB01521EF3E6E800E8F6FD /* Main.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		360102D61F023B3600252340 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				29EB01551EF3E6E800E8F6FD /* Assets.xcassets */,
+				29EB01571EF3E6E800E8F6FD /* LaunchScreen.storyboard */,
+				29EB015A1EF3E6E800E8F6FD /* Info.plist */,
+			);
+			name = Supporting;
+			sourceTree = "<group>";
+		};
+		360102D71F023B5000252340 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				29EB014E1EF3E6E800E8F6FD /* AppDelegate.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		360102D81F02AED600252340 /* AppGlobal */ = {
+			isa = PBXGroup;
+			children = (
+				360102D91F02AEF000252340 /* AppGlobal.swift */,
+			);
+			name = AppGlobal;
+			sourceTree = "<group>";
+		};
+		4DA495931CE919D19B4868AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C79565E9B49F4BB9BA5B5DAA /* Pods-BSL Hands One.debug.xcconfig */,
+				A2F81924438B6A5760A96F80 /* Pods-BSL Hands One.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29EB014A1EF3E6E800E8F6FD /* BSL Hands One */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29EB015D1EF3E6E800E8F6FD /* Build configuration list for PBXNativeTarget "BSL Hands One" */;
+			buildPhases = (
+				A67DEDDB33FDF5FCF3E2FBF4 /* [CP] Check Pods Manifest.lock */,
+				29EB01471EF3E6E800E8F6FD /* Sources */,
+				29EB01481EF3E6E800E8F6FD /* Frameworks */,
+				29EB01491EF3E6E800E8F6FD /* Resources */,
+				D3C50CFBAF1FE7FAA72602AA /* [CP] Embed Pods Frameworks */,
+				68355FB5168B211A233A1585 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BSL Hands One";
+			productName = "BSL Hands One";
+			productReference = 29EB014B1EF3E6E800E8F6FD /* BSL Hands One.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29EB01431EF3E6E800E8F6FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Thomas Maher";
+				TargetAttributes = {
+					29EB014A1EF3E6E800E8F6FD = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = KSPB275TRD;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 29EB01461EF3E6E800E8F6FD /* Build configuration list for PBXProject "BSL Hands One Starter Pack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29EB01421EF3E6E800E8F6FD;
+			productRefGroup = 29EB014C1EF3E6E800E8F6FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29EB014A1EF3E6E800E8F6FD /* BSL Hands One */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29EB01491EF3E6E800E8F6FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29EB01591EF3E6E800E8F6FD /* LaunchScreen.storyboard in Resources */,
+				293B92291F151C6D004BC1FE /* GoogleService-Info.plist in Resources */,
+				29EB01561EF3E6E800E8F6FD /* Assets.xcassets in Resources */,
+				29EB01541EF3E6E800E8F6FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		68355FB5168B211A233A1585 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BSL Hands One/Pods-BSL Hands One-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A67DEDDB33FDF5FCF3E2FBF4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D3C50CFBAF1FE7FAA72602AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BSL Hands One/Pods-BSL Hands One-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29EB01471EF3E6E800E8F6FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29EB01511EF3E6E800E8F6FD /* ViewController.swift in Sources */,
+				29EB01A91EFD15ED00E8F6FD /* AnimalViewController.swift in Sources */,
+				29EB01AB1EFD40A800E8F6FD /* SignSongsViewController.swift in Sources */,
+				29EB014F1EF3E6E800E8F6FD /* AppDelegate.swift in Sources */,
+				2997D64F1F0501E3006CC83C /* AppStoreViewController.swift in Sources */,
+				360102DA1F02AEF000252340 /* AppGlobal.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		29EB01521EF3E6E800E8F6FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29EB01531EF3E6E800E8F6FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		29EB01571EF3E6E800E8F6FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29EB01581EF3E6E800E8F6FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29EB015B1EF3E6E800E8F6FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		29EB015C1EF3E6E800E8F6FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29EB015E1EF3E6E800E8F6FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C79565E9B49F4BB9BA5B5DAA /* Pods-BSL Hands One.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = KSPB275TRD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "BSL Hands One/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bslhandsonefree.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29EB015F1EF3E6E800E8F6FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2F81924438B6A5760A96F80 /* Pods-BSL Hands One.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = KSPB275TRD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "BSL Hands One/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bslhandsonefree.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29EB01461EF3E6E800E8F6FD /* Build configuration list for PBXProject "BSL Hands One Starter Pack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29EB015B1EF3E6E800E8F6FD /* Debug */,
+				29EB015C1EF3E6E800E8F6FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29EB015D1EF3E6E800E8F6FD /* Build configuration list for PBXNativeTarget "BSL Hands One" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29EB015E1EF3E6E800E8F6FD /* Debug */,
+				29EB015F1EF3E6E800E8F6FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29EB01431EF3E6E800E8F6FD /* Project object */;
+}
